@@ -1,0 +1,72 @@
+.header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #2979ff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.navLink {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.1em 0.5em;
+
+  background: linear-gradient(#ffffff 0 0) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.08em);
+  transition: 0.2s var(--t, 0s),
+    background-position 0.2s calc(0.2s - var(--t, 0s));
+}
+
+.navLink:hover,
+.navLink:focus {
+  --p: 100%;
+  --t: 0.2s;
+  color: #000;
+}
+
+.navLinkActive {
+  color: #a0e3f6;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}

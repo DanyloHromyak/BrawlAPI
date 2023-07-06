@@ -1,5 +1,25 @@
+:root {
+  --primary: #2979ff;
+  --dark-primary: #2962ff;
+  --light-primary: #448aff;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  display: block;
+  margin-top: 88px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  min-height: calc(100vh - 88px);
+  background-color: var(--light-primary);
 }

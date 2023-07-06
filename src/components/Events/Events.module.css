@@ -1,0 +1,17 @@
+.section {
+  margin: 68px auto 0 auto;
+  padding: 0 15px;
+  background-color: #448aff;
+}
+.container {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 1rem;
+}
