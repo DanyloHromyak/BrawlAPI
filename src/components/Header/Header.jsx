@@ -10,20 +10,6 @@ function Header() {
           <BrawlStarsIcon />
           <h1 className={styles.logoText}>Brawl Stars Tracker</h1>
         </div>
-        <nav>
-          <ul className={styles.navList}>
-            <li className={styles.navItem}>
-              <a href="#" className={styles.navLink}>
-                Events
-              </a>
-            </li>
-            <li className={styles.navItem}>
-              <a href="#" className={styles.navLink}>
-                Brawlers
-              </a>
-            </li>
-          </ul>
-        </nav>
         <div>
           <Search />
         </div>

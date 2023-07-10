@@ -4,6 +4,7 @@
   position: fixed;
   background-color: #2979ff;
   padding: 10px 0;
+  z-index: 100;
 }
 
 .container {
@@ -23,7 +24,7 @@
 }
 
 .logoText {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw + .5rem, 2rem);
   line-height: 1.5;
   font-weight: 700;
   color: #fff;
@@ -69,4 +70,10 @@ form {
   align-items: center;
   justify-content: center;
   gap: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }

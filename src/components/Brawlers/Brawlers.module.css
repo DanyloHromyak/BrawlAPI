@@ -1,0 +1,66 @@
+.brawlers {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: calc(100vh - 68px);
+}
+
+.brawlersTitle {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.brawlersList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.brawlerItem {
+  background-color: #2962ff;
+  color: #fff;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.brawlerImage {
+  width: 100%;
+  background-color: black;
+  object-fit: cover;
+}
+
+.brawlerInfoWrapper {
+  padding: 0.75rem;
+  padding-top: 0.25rem;
+}
+
+.brawlerInfoWrapper * {
+  margin-bottom: 5px;
+}
+
+.brawlerName {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.brawlerStarPowerName,
+.brawlerGadgetName {
+  font-size: 0.93rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}

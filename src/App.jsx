@@ -1,15 +1,17 @@
 import Header from "./components/Header/Header";
-import Events from "./components/Events/Events";
+import Brawlers from "./components/Brawlers/Brawlers";
+import Battlelog from "./components/Battlelog/Battlelog";
 import axios from 'axios';
 
-axios.defaults.baseURL = "https://api.brawlstars.com/v1";
+axios.defaults.baseURL = "http://localhost:1000/";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <Events />
+        <Battlelog></Battlelog>
+        <Brawlers></Brawlers>
       </main>
     </>
   );

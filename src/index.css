@@ -14,12 +14,26 @@ html {
   scroll-behavior: smooth;
 }
 
-.main {
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--light-primary);
+}
+
+ul, li {
+  list-style: none;
+}
+
+main {
+  position: relative;
   display: block;
-  margin-top: 88px;
+  margin-top: 68px;
   padding-top: 20px;
   width: 100%;
-  position: relative;
-  min-height: calc(100vh - 88px);
   background-color: var(--light-primary);
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin-top: 155px;
+  }
 }
