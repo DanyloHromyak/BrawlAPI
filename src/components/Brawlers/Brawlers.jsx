@@ -16,7 +16,7 @@ function Brawlers() {
   }, []);
 
   return (
-    <section className={styles.brawlers}>
+    <section className={styles.brawlers} id="brawlers">
       <h2 className={styles.brawlersTitle}>Brawlers</h2>
       <ul className={styles.brawlersList}>
         {brawlers.map(brawler => (

@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 import BattlelogHeader from "./Header/BattlelogHeader";
 import BattlelogResult from "./Result/BattlelogResult";
-import BattlelogPlayer from "./Players/BattlelogShowdown";
 
 axios.defaults.baseURL = "http://localhost:1000";
 
@@ -20,14 +19,13 @@ function Battlelog() {
   }, []);
 
   return (
-    <section className={styles.battlelog}>
+    <section className={styles.battlelog} id="battlelog">
       <h2 className={styles.battlelogTitle}>Battlelog</h2>
       <ul className={styles.battlelogList}>
         {battlelog.map(battlelog => (
           <li key={battlelog.id} className={styles.battlelogItem}>
             <BattlelogHeader battlelog={battlelog} />
             <BattlelogResult battlelog={battlelog} />
-            <BattlelogPlayer battlelog={battlelog} />
           </li>
         ))}
       </ul>

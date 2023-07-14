@@ -8,6 +8,7 @@
 }
 
 .container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,12 +32,10 @@
   margin-left: 10px;
 }
 
-.navList {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
+.navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navLink {

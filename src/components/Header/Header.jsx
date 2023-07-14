@@ -10,6 +10,10 @@ function Header() {
           <BrawlStarsIcon />
           <h1 className={styles.logoText}>Brawl Stars Tracker</h1>
         </div>
+        <nav className={styles.navbar}>
+          <a className={styles.navLink} href="#battlelog">Battlelog</a>
+          <a className={styles.navLink} href="#brawlers">Brawlers</a>
+        </nav>
         <div>
           <Search />
         </div>
