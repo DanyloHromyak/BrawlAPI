@@ -1,6 +1,10 @@
-import styles from './Battlelog.module.css';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+import styles from "./Battlelog.module.css";
+import axios from "axios";
+import { useEffect, useState } from "react";
+
+import BattlelogHeader from "./Header/BattlelogHeader";
+import BattlelogResult from "./Result/BattlelogResult";
+import BattlelogPlayer from "./Players/BattlelogShowdown";
 
 axios.defaults.baseURL = "http://localhost:1000";
 
@@ -8,7 +12,7 @@ function Battlelog() {
   const [battlelog, setBattlelog] = useState([]);
 
   function getBattlelog() {
-    axios.get('/battlelog').then(res => setBattlelog(res.data));
+    axios.get("/battlelog").then(res => setBattlelog(res.data));
   }
 
   useEffect(() => {
@@ -19,16 +23,15 @@ function Battlelog() {
     <section className={styles.battlelog}>
       <h2 className={styles.battlelogTitle}>Battlelog</h2>
       <ul className={styles.battlelogList}>
-        <li className={styles.battlelogItem}>
-          <div className={styles.battlelogInfo}>
-            <p className={styles.battlelogType}>{battlelog.map(battleL => {
-              battleL.battle.type
-            })}</p>
-            <p className={styles.battlelogDate}>{battlelog.battleTime}</p>
-          </div>
-        </li>
+        {battlelog.map(battlelog => (
+          <li key={battlelog.id} className={styles.battlelogItem}>
+            <BattlelogHeader battlelog={battlelog} />
+            <BattlelogResult battlelog={battlelog} />
+            <BattlelogPlayer battlelog={battlelog} />
+          </li>
+        ))}
       </ul>
     </section>
-  )
+  );
 }
-export default Battlelog
+export default Battlelog;

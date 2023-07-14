@@ -1,0 +1,47 @@
+.battlelogResultWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brawlEventDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 60px;
+}
+
+.brawlEventImage {
+  height: 100%;
+}
+
+.brawlEventMap {
+  margin-top: 5px;
+}
+
+/* h3 */
+
+.battlelogResult {
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+}
+
+
+/* trophies */
+
+.trophyResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 30px;
+}
+
+.battlelogTrophyImage {
+  height: 100%;
+}

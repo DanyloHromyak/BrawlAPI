@@ -1,0 +1,35 @@
+.battlelog {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.battlelogTitle {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.battlelogList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.battlelogItem {
+  border: 1px solid #000;
+  background-color: #2962ff;
+  color: #fff;
+}
+
+.battlelogItem > * {
+  padding: 0.5rem 0.75rem;
+}

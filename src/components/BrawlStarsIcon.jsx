@@ -15,9 +15,9 @@ export default function BrawlStarsIcon() {
         y1="-.286"
         y2="34.321"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#fafafb"></stop>
-        <stop offset=".4" stop-color="#dcdedf"></stop>
-        <stop offset="1" stop-color="#a8adb0"></stop>
+        <stop offset="0" stopColor="#fafafb"></stop>
+        <stop offset=".4" stopColor="#dcdedf"></stop>
+        <stop offset="1" stopColor="#a8adb0"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Ca_rnWeDZqhUfg0_gr1)"
@@ -30,9 +30,9 @@ export default function BrawlStarsIcon() {
         y2="34.321"
         gradientTransform="matrix(-1 0 0 1 102.001 0)"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#fafafb"></stop>
-        <stop offset=".4" stop-color="#dcdedf"></stop>
-        <stop offset="1" stop-color="#a8adb0"></stop>
+        <stop offset="0" stopColor="#fafafb"></stop>
+        <stop offset=".4" stopColor="#dcdedf"></stop>
+        <stop offset="1" stopColor="#a8adb0"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Cb_rnWeDZqhUfg0_gr2)"
@@ -62,8 +62,8 @@ export default function BrawlStarsIcon() {
         cy="23.5"
         r="10.753"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".998" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".998" stopColor="#3b3b3b"></stop>
       </radialGradient>
       <ellipse
         cx="24"
@@ -78,8 +78,8 @@ export default function BrawlStarsIcon() {
         y1="15.923"
         y2="31.142"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#ffda1c"></stop>
-        <stop offset="1" stop-color="#e3a600"></stop>
+        <stop offset="0" stopColor="#ffda1c"></stop>
+        <stop offset="1" stopColor="#e3a600"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Cd_rnWeDZqhUfg0_gr3)"
@@ -91,8 +91,8 @@ export default function BrawlStarsIcon() {
         y1="23.09"
         y2="27.745"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".998" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".998" stopColor="#3b3b3b"></stop>
       </linearGradient>
       <circle
         cx="20.5"
@@ -106,8 +106,8 @@ export default function BrawlStarsIcon() {
         y1="23.09"
         y2="27.745"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".998" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".998" stopColor="#3b3b3b"></stop>
       </linearGradient>
       <circle
         cx="27.5"
@@ -121,8 +121,8 @@ export default function BrawlStarsIcon() {
         y1="27.152"
         y2="29.076"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".998" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".998" stopColor="#3b3b3b"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Cg_rnWeDZqhUfg0_gr6)"
@@ -134,11 +134,11 @@ export default function BrawlStarsIcon() {
         y1="21.14"
         y2="22.845"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".083" stop-color="#5c5c5c"></stop>
-        <stop offset=".37" stop-color="#4a4a4a"></stop>
-        <stop offset=".67" stop-color="#3f3f3f"></stop>
-        <stop offset=".998" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".083" stopColor="#5c5c5c"></stop>
+        <stop offset=".37" stopColor="#4a4a4a"></stop>
+        <stop offset=".67" stopColor="#3f3f3f"></stop>
+        <stop offset=".998" stopColor="#3b3b3b"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Ch_rnWeDZqhUfg0_gr7)"
@@ -150,11 +150,11 @@ export default function BrawlStarsIcon() {
         y1="21.124"
         y2="22.708"
         gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#636363"></stop>
-        <stop offset=".13" stop-color="#565656"></stop>
-        <stop offset=".359" stop-color="#474747"></stop>
-        <stop offset=".623" stop-color="#3e3e3e"></stop>
-        <stop offset="1" stop-color="#3b3b3b"></stop>
+        <stop offset="0" stopColor="#636363"></stop>
+        <stop offset=".13" stopColor="#565656"></stop>
+        <stop offset=".359" stopColor="#474747"></stop>
+        <stop offset=".623" stopColor="#3e3e3e"></stop>
+        <stop offset="1" stopColor="#3b3b3b"></stop>
       </linearGradient>
       <path
         fill="url(#K4oOdwzYWWxWA3aaSks5Ci_rnWeDZqhUfg0_gr8)"

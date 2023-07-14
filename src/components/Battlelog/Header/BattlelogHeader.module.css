@@ -1,0 +1,20 @@
+.battlelogInfo {
+  display: flex;
+  position: relative;
+  justify-content: end;
+  background-color: #2979ff;
+}
+
+.battlelogType {
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px #000;
+  font-weight: 500;
+}
+
+.battlelogDate {
+  margin-left: auto;
+  font-weight: 500;
+}
