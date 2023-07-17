@@ -1,4 +1,4 @@
-import Search from "../Search/Search";
+import Sidebar from "../Sidebar/Sidebar";
 import BrawlStarsIcon from "../BrawlStarsIcon";
 import styles from "./Header.module.css";
 
@@ -14,9 +14,7 @@ function Header() {
           <a className={styles.navLink} href="#battlelog">Battlelog</a>
           <a className={styles.navLink} href="#brawlers">Brawlers</a>
         </nav>
-        <div>
-          <Search />
-        </div>
+        <Sidebar />
       </div>
     </header>
   );
