@@ -1,0 +1,7 @@
+.sidebar {
+  position: relative;
+}
+
+.sidebar:first-child {
+  color: black;
+}

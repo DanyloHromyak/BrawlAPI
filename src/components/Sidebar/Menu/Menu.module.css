@@ -1,0 +1,90 @@
+.menu {
+  position: fixed;
+  z-index: 1488;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 100svh;
+  width: 20%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: var(--dark-primary);
+  color: white;
+  transform: translateX(75%);
+  transition: 300ms;
+  top: 0;
+}
+
+.menu > * {
+  width: 100%;
+}
+
+.menuOpened {
+  transform: translateX(-25%);
+  margin-top: 0;
+}
+
+.mode {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--dark-secondary);
+  color: white;
+  cursor: pointer;
+}
+
+.hamburgerWrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modeTitle,
+.dateTitle,
+.trophiesTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.modeItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.modeItem > * {
+  cursor: pointer;
+}
+
+.modeCheckbox {
+  background-color: white;
+  width: 16px;
+  height: 16px;
+}
+
+.modeCheckbox:last-of-type {
+  margin-right: 6px;
+}
+
+.modeDate {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.trophiesInputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.trophies {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

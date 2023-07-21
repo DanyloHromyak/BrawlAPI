@@ -26,7 +26,7 @@
 
 .battlelogItem {
   border: 1px solid #000;
-  background-color: #2962ff;
+  background-color: var(--dark-primary);
   color: #fff;
 }
 

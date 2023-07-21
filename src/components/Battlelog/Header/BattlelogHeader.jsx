@@ -1,7 +1,9 @@
 import styles from "./BattlelogHeader.module.css";
 import moment from "moment";
 
-function BattlelogHeader({ battlelog }) {
+function BattlelogHeader({ data }) {
+
+  console.log(data)
 
   function battleTime(time) {
     return moment(time).fromNow();
@@ -9,9 +11,9 @@ function BattlelogHeader({ battlelog }) {
 
   return (
     <div className={styles.battlelogInfo}>
-      <p className={styles.battlelogType}>{battlelog.battle.type}</p>
+      <p className={styles.battlelogType}>RANKED</p>
       <span className={styles.battlelogDate}>
-        {battleTime(battlelog.battleTime)}
+        {battleTime()}
       </span>
     </div>
   );

@@ -2,7 +2,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import BrawlStarsIcon from "../BrawlStarsIcon";
 import styles from "./Header.module.css";
 
-function Header() {
+function Header({ setFilter }) {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
@@ -14,7 +14,7 @@ function Header() {
           <a className={styles.navLink} href="#battlelog">Battlelog</a>
           <a className={styles.navLink} href="#brawlers">Brawlers</a>
         </nav>
-        <Sidebar />
+        <Sidebar setFilter={setFilter} />
       </div>
     </header>
   );
