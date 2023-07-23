@@ -88,3 +88,7 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.dateCheckbox {
+  margin-top: 10px;
+}

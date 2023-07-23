@@ -27,9 +27,17 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
 
   function handleDateChange(e) {
     const date = e.target.value;
+    console.log(date)
     setFilter(prev => ({
       ...prev,
-      date,
+      battleTime: date,
+    }));
+  }
+
+  function handleClearDateChange() {
+    setFilter(prev => ({
+      ...prev,
+      battleTime: "",
     }));
   }
 
@@ -106,6 +114,15 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
           className={styles.modeDate}
           onChange={handleDateChange}
         />
+        <div className={styles.dateCheckbox}>
+          <input
+            type="checkbox"
+            id="date"
+            className={styles.modeCheckbox}
+            onChange={handleClearDateChange}
+          />
+          <label htmlFor="date">Any date</label>
+        </div>
       </div>
       <div className={styles.trophies}>
         <h3 className={styles.trophiesTitle}>Trophy Change</h3>
@@ -114,12 +131,11 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
           type="number"
           min={-10}
           max={10}
-          step={1}
           className={styles.modeTrophies}
           onChange={handleTrophyChange}
         />
         <div>
-          <input 
+          <input
             type="checkbox"
             id="trophies"
             className={styles.modeCheckbox}
