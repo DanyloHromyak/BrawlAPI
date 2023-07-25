@@ -21,17 +21,19 @@ function App() {
       params: {
         "battle.mode": filter.mode,
         "battle.trophyChange": filter.trophyChange === "" ? undefined : filter.trophyChange,
-        // "battleTime": filter.battleTime === "" ? undefined : filter.battleTime,
-        "battleTime": filter.battleTime === "" ? undefined : moment(filter.battleTime).format("YYYY-MM-DD"),
+        "battleTime": filter.battleTime === "" ? undefined : filter.battleTime,
+        // "battleTime": filter.battleTime === "" ? undefined : moment(filter.battleTime).format("YYYY-MM-DD"),
       }
-    }).then(res => setBattlelog(res.data));
+    }).then(res => {
+      setBattlelog(res.data)
+    });
   }, [filter]);
 
   return (
     <>
       <Header setFilter={setFilter} />
       <main>
-        <Battlelog battlelog={battlelog} filter={filter}></Battlelog>
+        <Battlelog battlelog={battlelog}></Battlelog>
         <Brawlers></Brawlers>
       </main>
     </>
