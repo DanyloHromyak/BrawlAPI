@@ -1,4 +1,5 @@
 import BrawlStarsIcon from "../BrawlStarsIcon";
+import Sidebar from "../Sidebar/Sidebar";
 import styles from "./Header.module.css";
 
 function Header({ setFilter }) {
@@ -13,10 +14,7 @@ function Header({ setFilter }) {
           <a className={styles.navLink} href="#battlelog">Battlelog</a>
           <a className={styles.navLink} href="#brawlers">Brawlers</a>
         </nav>
-<<<<<<< HEAD
-=======
         <Sidebar setFilter={setFilter} />
->>>>>>> feature-sidebar
       </div>
     </header>
   );
