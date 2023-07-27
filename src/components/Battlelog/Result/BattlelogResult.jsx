@@ -1,6 +1,7 @@
 import styles from "./BattlelogResult.module.css";
 
 function BattlelogResult({ battlelog }) {
+
   return (
     <div className={styles.battlelogResultWrapper}>
       {/* eventDesc div TAG */}

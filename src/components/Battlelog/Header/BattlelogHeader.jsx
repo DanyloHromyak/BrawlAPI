@@ -9,7 +9,7 @@ function BattlelogHeader({ battlelog }) {
 
   return (
     <div className={styles.battlelogInfo}>
-      <p className={styles.battlelogType}>{battlelog.battle.type}</p>
+      <p className={styles.battlelogType}>RANKED</p>
       <span className={styles.battlelogDate}>
         {battleTime(battlelog.battleTime)}
       </span>
