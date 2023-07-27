@@ -16,6 +16,13 @@
   margin-bottom: 1rem;
 }
 
+.battlelogEmpty {
+  color: white;
+  font-style: italic;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
 .battlelogList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));

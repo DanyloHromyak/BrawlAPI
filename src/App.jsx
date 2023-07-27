@@ -1,7 +1,6 @@
 import Header from "./components/Header/Header";
 import Brawlers from "./components/Brawlers/Brawlers";
 import Battlelog from "./components/Battlelog/Battlelog";
-import moment from "moment";
 
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -22,7 +21,6 @@ function App() {
         "battle.mode": filter.mode,
         "battle.trophyChange": filter.trophyChange === "" ? undefined : filter.trophyChange,
         "battleTime": filter.battleTime === "" ? undefined : filter.battleTime,
-        // "battleTime": filter.battleTime === "" ? undefined : moment(filter.battleTime).format("YYYY-MM-DD"),
       }
     }).then(res => {
       setBattlelog(res.data)
