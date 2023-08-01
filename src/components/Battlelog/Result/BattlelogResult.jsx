@@ -7,7 +7,7 @@ function BattlelogResult({ battlelog }) {
       {/* eventDesc div TAG */}
       <div className={styles.brawlEventDesc}>
         <img
-          src={`../../../public/images/${battlelog.event.mode}.webp`}
+          src={`../../../images/${battlelog.event.mode}.webp`}
           alt="event_image"
           className={styles.brawlEventImage}
         />
@@ -32,7 +32,7 @@ function BattlelogResult({ battlelog }) {
           {battlelog.battle.trophyChange ? battlelog.battle.trophyChange : 0}
         </p>
         <img
-          src="../../../public/images/Trophy.webp"
+          src="../../../images/Trophy.webp"
           alt="trophy_image"
           className={styles.battlelogTrophyImage}
         />

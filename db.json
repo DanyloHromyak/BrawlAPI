@@ -2769,7 +2769,7 @@
     {
       "id": 16000000,
       "name": "SHELLY",
-      "image": "/public/images/Shelly.webp",
+      "image": "/images/Shelly.webp",
       "starPowers": [
         {
           "id": 23000076,
@@ -2794,7 +2794,7 @@
     {
       "id": 16000001,
       "name": "COLT",
-      "image": "/public/images/Colt.webp",
+      "image": "/images/Colt.webp",
       "starPowers": [
         {
           "id": 23000077,
@@ -2819,7 +2819,7 @@
     {
       "id": 16000002,
       "name": "BULL",
-      "image": "/public/images/Bull.webp",
+      "image": "/images/Bull.webp",
       "starPowers": [
         {
           "id": 23000078,
@@ -2844,7 +2844,7 @@
     {
       "id": 16000003,
       "name": "BROCK",
-      "image": "/public/images/Brock.webp",
+      "image": "/images/Brock.webp",
       "starPowers": [
         {
           "id": 23000079,
@@ -2869,7 +2869,7 @@
     {
       "id": 16000004,
       "name": "RICO",
-      "image": "/public/images/Rico.webp",
+      "image": "/images/Rico.webp",
       "starPowers": [
         {
           "id": 23000080,
@@ -2894,7 +2894,7 @@
     {
       "id": 16000005,
       "name": "SPIKE",
-      "image": "/public/images/Spike.webp",
+      "image": "/images/Spike.webp",
       "starPowers": [
         {
           "id": 23000081,
@@ -2919,7 +2919,7 @@
     {
       "id": 16000006,
       "name": "BARLEY",
-      "image": "/public/images/Barley.webp",
+      "image": "/images/Barley.webp",
       "starPowers": [
         {
           "id": 23000082,
@@ -2944,7 +2944,7 @@
     {
       "id": 16000007,
       "name": "JESSIE",
-      "image": "/public/images/Jessie.webp",
+      "image": "/images/Jessie.webp",
       "starPowers": [
         {
           "id": 23000083,
@@ -2969,7 +2969,7 @@
     {
       "id": 16000008,
       "name": "NITA",
-      "image": "/public/images/Nita.webp",
+      "image": "/images/Nita.webp",
       "starPowers": [
         {
           "id": 23000084,
@@ -2994,7 +2994,7 @@
     {
       "id": 16000009,
       "name": "DYNAMIKE",
-      "image": "/public/images/Dynamike.webp",
+      "image": "/images/Dynamike.webp",
       "starPowers": [
         {
           "id": 23000085,
@@ -3019,7 +3019,7 @@
     {
       "id": 16000010,
       "name": "EL PRIMO",
-      "image": "/public/images/El_Primo.webp",
+      "image": "/images/El_Primo.webp",
       "starPowers": [
         {
           "id": 23000086,
@@ -3044,7 +3044,7 @@
     {
       "id": 16000011,
       "name": "MORTIS",
-      "image": "/public/images/Mortis.webp",
+      "image": "/images/Mortis.webp",
       "starPowers": [
         {
           "id": 23000087,
@@ -3069,7 +3069,7 @@
     {
       "id": 16000012,
       "name": "CROW",
-      "image": "/public/images/Crow.webp",
+      "image": "/images/Crow.webp",
       "starPowers": [
         {
           "id": 23000088,
@@ -3094,7 +3094,7 @@
     {
       "id": 16000013,
       "name": "POCO",
-      "image": "/public/images/Poco.webp",
+      "image": "/images/Poco.webp",
       "starPowers": [
         {
           "id": 23000089,
@@ -3119,7 +3119,7 @@
     {
       "id": 16000014,
       "name": "BO",
-      "image": "/public/images/Bo.webp",
+      "image": "/images/Bo.webp",
       "starPowers": [
         {
           "id": 23000090,
@@ -3144,7 +3144,7 @@
     {
       "id": 16000015,
       "name": "PIPER",
-      "image": "/public/images/Piper.webp",
+      "image": "/images/Piper.webp",
       "starPowers": [
         {
           "id": 23000091,
@@ -3169,7 +3169,7 @@
     {
       "id": 16000016,
       "name": "PAM",
-      "image": "/public/images/Pam.webp",
+      "image": "/images/Pam.webp",
       "starPowers": [
         {
           "id": 23000092,
@@ -3194,7 +3194,7 @@
     {
       "id": 16000017,
       "name": "TARA",
-      "image": "/public/images/Tara.webp",
+      "image": "/images/Tara.webp",
       "starPowers": [
         {
           "id": 23000093,
@@ -3219,7 +3219,7 @@
     {
       "id": 16000018,
       "name": "DARRYL",
-      "image": "/public/images/Darryl.webp",
+      "image": "/images/Darryl.webp",
       "starPowers": [
         {
           "id": 23000094,
@@ -3244,7 +3244,7 @@
     {
       "id": 16000019,
       "name": "PENNY",
-      "image": "/public/images/Penny.webp",
+      "image": "/images/Penny.webp",
       "starPowers": [
         {
           "id": 23000099,
@@ -3269,7 +3269,7 @@
     {
       "id": 16000020,
       "name": "FRANK",
-      "image": "/public/images/Frank.webp",
+      "image": "/images/Frank.webp",
       "starPowers": [
         {
           "id": 23000104,
@@ -3294,7 +3294,7 @@
     {
       "id": 16000021,
       "name": "GENE",
-      "image": "/public/images/Gene.webp",
+      "image": "/images/Gene.webp",
       "starPowers": [
         {
           "id": 23000109,
@@ -3319,7 +3319,7 @@
     {
       "id": 16000022,
       "name": "TICK",
-      "image": "/public/images/Tick.webp",
+      "image": "/images/Tick.webp",
       "starPowers": [
         {
           "id": 23000114,
@@ -3344,7 +3344,7 @@
     {
       "id": 16000023,
       "name": "LEON",
-      "image": "/public/images/Leon.webp",
+      "image": "/images/Leon.webp",
       "starPowers": [
         {
           "id": 23000119,
@@ -3369,7 +3369,7 @@
     {
       "id": 16000024,
       "name": "ROSA",
-      "image": "/public/images/Rosa.webp",
+      "image": "/images/Rosa.webp",
       "starPowers": [
         {
           "id": 23000124,
@@ -3394,7 +3394,7 @@
     {
       "id": 16000025,
       "name": "CARL",
-      "image": "/public/images/Carl.webp",
+      "image": "/images/Carl.webp",
       "starPowers": [
         {
           "id": 23000129,
@@ -3419,7 +3419,7 @@
     {
       "id": 16000026,
       "name": "BIBI",
-      "image": "/public/images/Bibi.webp",
+      "image": "/images/Bibi.webp",
       "starPowers": [
         {
           "id": 23000134,
@@ -3444,7 +3444,7 @@
     {
       "id": 16000027,
       "name": "8-BIT",
-      "image": "/public/images/8-BIT.webp",
+      "image": "/images/8-BIT.webp",
       "starPowers": [
         {
           "id": 23000168,
@@ -3469,7 +3469,7 @@
     {
       "id": 16000028,
       "name": "SANDY",
-      "image": "/public/images/Sandy.webp",
+      "image": "/images/Sandy.webp",
       "starPowers": [
         {
           "id": 23000186,
@@ -3494,7 +3494,7 @@
     {
       "id": 16000029,
       "name": "BEA",
-      "image": "/public/images/Bea.webp",
+      "image": "/images/Bea.webp",
       "starPowers": [
         {
           "id": 23000192,
@@ -3519,7 +3519,7 @@
     {
       "id": 16000030,
       "name": "EMZ",
-      "image": "/public/images/Emz.webp",
+      "image": "/images/Emz.webp",
       "starPowers": [
         {
           "id": 23000198,
@@ -3544,7 +3544,7 @@
     {
       "id": 16000031,
       "name": "MR. P",
-      "image": "/public/images/Mr-P.webp",
+      "image": "/images/Mr-P.webp",
       "starPowers": [
         {
           "id": 23000204,
@@ -3569,7 +3569,7 @@
     {
       "id": 16000032,
       "name": "MAX",
-      "image": "/public/images/Max.webp",
+      "image": "/images/Max.webp",
       "starPowers": [
         {
           "id": 23000210,
@@ -3594,7 +3594,7 @@
     {
       "id": 16000034,
       "name": "JACKY",
-      "image": "/public/images/Jacky.webp",
+      "image": "/images/Jacky.webp",
       "starPowers": [
         {
           "id": 23000222,
@@ -3619,7 +3619,7 @@
     {
       "id": 16000035,
       "name": "GALE",
-      "image": "/public/images/Gale.webp",
+      "image": "/images/Gale.webp",
       "starPowers": [
         {
           "id": 23000228,
@@ -3644,7 +3644,7 @@
     {
       "id": 16000036,
       "name": "NANI",
-      "image": "/public/images/Nani.webp",
+      "image": "/images/Nani.webp",
       "starPowers": [
         {
           "id": 23000234,
@@ -3669,7 +3669,7 @@
     {
       "id": 16000037,
       "name": "SPROUT",
-      "image": "/public/images/Sprout.webp",
+      "image": "/images/Sprout.webp",
       "starPowers": [
         {
           "id": 23000240,
@@ -3694,7 +3694,7 @@
     {
       "id": 16000038,
       "name": "SURGE",
-      "image": "/public/images/Surge.webp",
+      "image": "/images/Surge.webp",
       "starPowers": [
         {
           "id": 23000283,
@@ -3719,7 +3719,7 @@
     {
       "id": 16000039,
       "name": "COLETTE",
-      "image": "/public/images/Colette.webp",
+      "image": "/images/Colette.webp",
       "starPowers": [
         {
           "id": 23000300,
@@ -3744,7 +3744,7 @@
     {
       "id": 16000040,
       "name": "AMBER",
-      "image": "/public/images/Amber.webp",
+      "image": "/images/Amber.webp",
       "starPowers": [
         {
           "id": 23000307,
@@ -3769,7 +3769,7 @@
     {
       "id": 16000041,
       "name": "LOU",
-      "image": "/public/images/Lou.webp",
+      "image": "/images/Lou.webp",
       "starPowers": [
         {
           "id": 23000324,
@@ -3794,7 +3794,7 @@
     {
       "id": 16000042,
       "name": "BYRON",
-      "image": "/public/images/Byron.webp",
+      "image": "/images/Byron.webp",
       "starPowers": [
         {
           "id": 23000331,
@@ -3819,7 +3819,7 @@
     {
       "id": 16000043,
       "name": "EDGAR",
-      "image": "/public/images/Edgar.webp",
+      "image": "/images/Edgar.webp",
       "starPowers": [
         {
           "id": 23000338,
@@ -3844,7 +3844,7 @@
     {
       "id": 16000044,
       "name": "RUFFS",
-      "image": "/public/images/Ruffs.webp",
+      "image": "/images/Ruffs.webp",
       "starPowers": [
         {
           "id": 23000345,
@@ -3869,7 +3869,7 @@
     {
       "id": 16000045,
       "name": "STU",
-      "image": "/public/images/Stu.webp",
+      "image": "/images/Stu.webp",
       "starPowers": [
         {
           "id": 23000362,
@@ -3894,7 +3894,7 @@
     {
       "id": 16000046,
       "name": "BELLE",
-      "image": "/public/images/Belle.webp",
+      "image": "/images/Belle.webp",
       "starPowers": [
         {
           "id": 23000369,
@@ -3919,7 +3919,7 @@
     {
       "id": 16000047,
       "name": "SQUEAK",
-      "image": "/public/images/Squeak.webp",
+      "image": "/images/Squeak.webp",
       "starPowers": [
         {
           "id": 23000376,
@@ -3944,7 +3944,7 @@
     {
       "id": 16000048,
       "name": "GROM",
-      "image": "/public/images/Grom.webp",
+      "image": "/images/Grom.webp",
       "starPowers": [
         {
           "id": 23000383,
@@ -3969,7 +3969,7 @@
     {
       "id": 16000049,
       "name": "BUZZ",
-      "image": "/public/images/Buzz.webp",
+      "image": "/images/Buzz.webp",
       "starPowers": [
         {
           "id": 23000390,
@@ -3994,7 +3994,7 @@
     {
       "id": 16000050,
       "name": "GRIFF",
-      "image": "/public/images/Griff.webp",
+      "image": "/images/Griff.webp",
       "starPowers": [
         {
           "id": 23000397,
@@ -4019,7 +4019,7 @@
     {
       "id": 16000051,
       "name": "ASH",
-      "image": "/public/images/Ash.webp",
+      "image": "/images/Ash.webp",
       "starPowers": [
         {
           "id": 23000414,
@@ -4044,7 +4044,7 @@
     {
       "id": 16000052,
       "name": "MEG",
-      "image": "/public/images/Meg.webp",
+      "image": "/images/Meg.webp",
       "starPowers": [
         {
           "id": 23000421,
@@ -4069,7 +4069,7 @@
     {
       "id": 16000053,
       "name": "LOLA",
-      "image": "/public/images/Lola.webp",
+      "image": "/images/Lola.webp",
       "starPowers": [
         {
           "id": 23000431,
@@ -4094,7 +4094,7 @@
     {
       "id": 16000054,
       "name": "FANG",
-      "image": "/public/images/Fang.webp",
+      "image": "/images/Fang.webp",
       "starPowers": [
         {
           "id": 23000438,
@@ -4119,7 +4119,7 @@
     {
       "id": 16000056,
       "name": "EVE",
-      "image": "/public/images/Eve.webp",
+      "image": "/images/Eve.webp",
       "starPowers": [
         {
           "id": 23000452,
@@ -4144,7 +4144,7 @@
     {
       "id": 16000057,
       "name": "JANET",
-      "image": "/public/images/Janet.webp",
+      "image": "/images/Janet.webp",
       "starPowers": [
         {
           "id": 23000470,
@@ -4169,7 +4169,7 @@
     {
       "id": 16000058,
       "name": "BONNIE",
-      "image": "/public/images/Bonnie.webp",
+      "image": "/images/Bonnie.webp",
       "starPowers": [
         {
           "id": 23000478,
@@ -4194,7 +4194,7 @@
     {
       "id": 16000059,
       "name": "OTIS",
-      "image": "/public/images/Otis.webp",
+      "image": "/images/Otis.webp",
       "starPowers": [
         {
           "id": 23000495,
@@ -4219,7 +4219,7 @@
     {
       "id": 16000060,
       "name": "SAM",
-      "image": "/public/images/Sam.webp",
+      "image": "/images/Sam.webp",
       "starPowers": [
         {
           "id": 23000503,
@@ -4244,7 +4244,7 @@
     {
       "id": 16000061,
       "name": "GUS",
-      "image": "/public/images/Gus.webp",
+      "image": "/images/Gus.webp",
       "starPowers": [
         {
           "id": 23000511,
@@ -4269,7 +4269,7 @@
     {
       "id": 16000062,
       "name": "BUSTER",
-      "image": "/public/images/Buster.webp",
+      "image": "/images/Buster.webp",
       "starPowers": [
         {
           "id": 23000519,
@@ -4294,7 +4294,7 @@
     {
       "id": 16000063,
       "name": "CHESTER",
-      "image": "/public/images/Chester.webp",
+      "image": "/images/Chester.webp",
       "starPowers": [
         {
           "id": 23000527,
@@ -4319,7 +4319,7 @@
     {
       "id": 16000064,
       "name": "GRAY",
-      "image": "/public/images/Gray.webp",
+      "image": "/images/Gray.webp",
       "starPowers": [
         {
           "id": 23000535,
@@ -4344,7 +4344,7 @@
     {
       "id": 16000065,
       "name": "MANDY",
-      "image": "/public/images/Mandy.webp",
+      "image": "/images/Mandy.webp",
       "starPowers": [
         {
           "id": 23000543,
@@ -4369,7 +4369,7 @@
     {
       "id": 16000066,
       "name": "R-T",
-      "image": "/public/images/R-T.webp",
+      "image": "/images/R-T.webp",
       "starPowers": [
         {
           "id": 23000553,
@@ -4394,7 +4394,7 @@
     {
       "id": 16000067,
       "name": "WILLOW",
-      "image": "/public/images/Willow.webp",
+      "image": "/images/Willow.webp",
       "starPowers": [
         {
           "id": 23000561,
@@ -4419,7 +4419,7 @@
     {
       "id": 16000068,
       "name": "MAISIE",
-      "image": "/public/images/Maisie.webp",
+      "image": "/images/Maisie.webp",
       "starPowers": [
         {
           "id": 23000569,
@@ -4444,7 +4444,7 @@
     {
       "id": 16000069,
       "name": "HANK",
-      "image": "/public/images/Hank.webp",
+      "image": "/images/Hank.webp",
       "starPowers": [
         {
           "id": 23000577,
@@ -4469,7 +4469,7 @@
     {
       "id": 16000070,
       "name": "CORDELIUS",
-      "image": "/public/images/Cordelius.webp",
+      "image": "/images/Cordelius.webp",
       "starPowers": [
         {
           "id": 23000585,
@@ -4494,7 +4494,7 @@
     {
       "id": 16000071,
       "name": "DOUG",
-      "image": "/public/images/Doug.webp",
+      "image": "/images/Doug.webp",
       "starPowers": [
         {
           "id": 23000593,
