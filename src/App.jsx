@@ -5,7 +5,7 @@ import Battlelog from "./components/Battlelog/Battlelog";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:1000";
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [battlelog, setBattlelog] = useState([]);
