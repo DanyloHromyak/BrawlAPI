@@ -11,13 +11,6 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
     }));
   }
 
-  function handleClearTrophyChange() {
-    setFilter(prev => ({
-      ...prev,
-      trophyChange: "",
-    }));
-  }
-
   function handleModeChange(mode) {
     setFilter(prev => ({
       ...prev,
@@ -31,13 +24,6 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
     setFilter(prev => ({
       ...prev,
       battleTime: date,
-    }));
-  }
-
-  function handleClearDateChange() {
-    setFilter(prev => ({
-      ...prev,
-      battleTime: "",
     }));
   }
 
@@ -114,15 +100,6 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
           className={styles.modeDate}
           onChange={handleDateChange}
         />
-        <div className={styles.dateCheckbox}>
-          <input
-            type="checkbox"
-            id="date"
-            className={styles.modeCheckbox}
-            onChange={handleClearDateChange}
-          />
-          <label htmlFor="date">Any date</label>
-        </div>
       </div>
       <div className={styles.trophies}>
         <h3 className={styles.trophiesTitle}>Trophy Change</h3>
@@ -134,15 +111,6 @@ function Menu({ isMenuOpen, isOpen, setOpen, setFilter }) {
           className={styles.modeTrophies}
           onChange={handleTrophyChange}
         />
-        <div>
-          <input
-            type="checkbox"
-            id="trophies"
-            className={styles.modeCheckbox}
-            onChange={handleClearTrophyChange}
-          />
-          <label htmlFor="trophies">Any trophy</label>
-        </div>
       </div>
     </menu>
   );
